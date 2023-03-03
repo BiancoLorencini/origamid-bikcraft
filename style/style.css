@@ -3,6 +3,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h1, ul p {
+    margin: 0px;
+}
+
 ul {
     margin: 0px;
     padding: 0px;
@@ -11,6 +15,12 @@ ul {
 
 a {
     text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    display: block;
 }
 
 .header-bg {
@@ -84,4 +94,58 @@ a {
         padding: 8px 12px;
         font-size: 14px;
     }
+}
+
+.introducao-bg {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.introducao {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 40px;
+    max-width: 1200px;
+    box-sizing: border-box;
+    padding: 0px 20px;
+    margin: 0px auto;
+}
+
+.introducao span {
+    color: #ffbb00;
+}
+
+.introducao-conteudo {
+    align-self:self-end;
+    padding-bottom: 80px;
+}
+
+.introducao h1 {
+    margin-bottom: 32px;
+    font-size: 64px;
+    line-height: 1.125;
+}
+
+.introducao p {
+    margin-bottom: 20px;
+    font-size: 24;
+    line-height: 1.5;
+    color: #b2b2b2;
+}
+
+.introducao a {
+    padding: 16px 32px;
+    display: inline-block;
+    background: linear-gradient(#ffbf00,#f2a50c);
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.1);
+    text-transform: uppercase;
+    color: #332200;
+    font-size: 18px;
+    line-height: 1.33;
+    font-weight: bold;
+}
+
+.introducao a:hover {
+    background: linear-gradient(#ffb60d, #e59317);
 }
