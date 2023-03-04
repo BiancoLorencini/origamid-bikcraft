@@ -1,13 +1,35 @@
-.texto-grande {
-  font-size: 64px;
-  line-height: 1.125;
-  font-family: "poppins";
-  font-weight: 600;
+.font-poppins-xxl {
+  font: 600 4rem/1.125 "poppins";
 }
 
-.texto-medio {
-  font-size: 24px;
-  line-height: 1.5;
-  font-family: "Roboto";
-  font-weight: 400;
+.font-poppins-xl {
+  font: 600 2rem/2.5 "poppins";
+}
+
+.font-poppins-l {
+  font: 400 1.5rem/2.25 "poppins";
+}
+
+.font-poppins-m-b {
+  font: 600 1.125/2 "poppins";
+}
+
+.font-poppins-m {
+  font: 400 1.125rem/2 "poppins";
+}
+
+.font-poppins-s {
+  font: 400 1rem/2 "poppins";
+}
+
+.font-poppins-xs {
+  font: 600 0.75rem/1.33 "poppins";
+}
+
+.font-roboto-l {
+  font: 400 1.5rem/1.5 "roboto";
+}
+
+.font-roboto-l-b {
+  font: 500 2rem/2.25 "roboto";
 }
