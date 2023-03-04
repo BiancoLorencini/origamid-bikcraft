@@ -22,6 +22,10 @@
   margin-right: auto;
 }
 
+.bicicletas-lista li {
+    min-width: 280px;
+}
+
 .bicicletas-lista a {
   display: block;
 }
@@ -52,7 +56,6 @@
 
 @media (max-width: 800px) {
   .bicicletas-lista {
-    padding-top: 60px;
     padding-bottom: 600px;
   }
   .bicicletas-lista ul {
