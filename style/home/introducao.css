@@ -1,7 +1,6 @@
 .introducao-bg {
-  background-color: #000000;
-  color: #ffffff;
-  box-shadow: inset 0px -120px white;
+  background-color:var(--cor-12);
+  box-shadow: inset 0px -120px var(--cor-0);
 }
 
 .introducao {
@@ -12,10 +11,6 @@
   box-sizing: border-box;
   padding: 0px 20px;
   margin: 0px auto;
-}
-
-.introducao span {
-  color: #ffbb00;
 }
 
 .introducao-conteudo {
@@ -32,19 +27,10 @@
 
 .introducao h1 {
   margin-bottom: 32px;
-  font-size: 64px;
-  line-height: 1.125;
-  font-family: "poppins";
-  font-weight: 600;
 }
 
 .introducao p {
   margin-bottom: 20px;
-  font-size: 24px;
-  line-height: 1.5;
-  color: #b2b2b2;
-  font-family: "Roboto";
-  font-weight: 400;
 }
 
 .introducao a {
@@ -54,7 +40,7 @@
   border-radius: 4px;
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
   text-transform: uppercase;
-  color: #332200;
+  color: var(--cor-p5);
   font-size: 18px;
   line-height: 1.33;
   font-family: "poppins";
@@ -83,9 +69,9 @@
 
 @media (max-width: 800px) {
   .introducao-bg {
-    background: #111111;
+    background: var(--cor-11);
     padding-top: 40px;
-    box-shadow: inset 0 -60px white;
+    box-shadow: inset 0 -60px var(--cor-0);
   }
   .introducao {
     grid-template-columns: 1fr;
