@@ -1,5 +1,5 @@
 .introducao-bg {
-  background-color:var(--cor-12);
+  background-color: var(--cor-12);
   box-shadow: inset 0px -120px var(--cor-0);
 }
 
@@ -7,10 +7,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0px 40px;
-  max-width: 1200px;
-  box-sizing: border-box;
-  padding: 0px 20px;
-  margin: 0px auto;
 }
 
 .introducao-conteudo {
