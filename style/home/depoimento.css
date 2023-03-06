@@ -13,7 +13,9 @@
 
 .depoimento-conteudo {
   padding: 40px 40px 80px 80px;
-  align-self: end;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .depoimento-conteudo p {
@@ -33,12 +35,30 @@
 }
 
 .depoimento p::before {
-  content: '“';
+  content: "“";
   left: -50px;
   top: -20px;
 }
 
 .depoimento p::after {
-  content: '”';
+  content: "”";
+}
 
+@media (max-width: 1200px) {
+  .depoimento-conteudo p {
+    font-size: x-large;
+  }
+}
+
+@media (max-width: 800px) {
+  .depoimento {
+    grid-template-columns: 1fr;
+  }
+  .depoimento-conteudo {
+    padding-top: 80px;
+    justify-self: center;
+  }
+  .depoimento img {
+    max-height: 400px;
+  }
 }
