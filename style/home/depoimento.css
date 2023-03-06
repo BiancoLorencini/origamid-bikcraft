@@ -17,5 +17,28 @@
 }
 
 .depoimento-conteudo p {
-  font-family: "Marriweather";
+  font-family: "Merriweather", sans-serif;
+  font-style: italic;
+  font-weight: 900;
+  margin-bottom: 32px;
+  max-width: 28ch;
+  position: relative;
+}
+
+.depoimento p::before,
+.depoimento p::after {
+  font-size: 5rem;
+  color: var(--cor-p3);
+  position: absolute;
+}
+
+.depoimento p::before {
+  content: '“';
+  left: -50px;
+  top: -20px;
+}
+
+.depoimento p::after {
+  content: '”';
+
 }
