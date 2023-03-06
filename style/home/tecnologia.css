@@ -18,9 +18,75 @@
 
 .tecno {
   display: block;
-  padding-bottom: 28px;
+  margin-bottom: 28px;
 }
 
 .tecnologia-conteudo {
   padding-bottom: 160px;
+}
+
+.tecnologia > span {
+  margin-bottom: 20px;
+  display: block;
+}
+
+.tecnologia-conteudo h2{
+  margin-bottom: 20px;
+}
+
+.tecnologia-conteudo > p {
+  margin-bottom: 20px;
+}
+
+.tecnologia a {
+  margin-bottom: 80px;
+}
+
+.tecnologia-vantagens {
+  display: flex;
+  gap: 40px;
+}
+
+.tecnologia-vantagens h3 {
+  margin-bottom: 8px;
+  width: max-content;
+}
+
+.tecnologia-vantagens img {
+  width: 24px;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 800px) {
+  .tecnologia-bg {
+    box-shadow: initial;
+  }
+  .tecnologia {
+    grid-template-columns: 1fr;
+  }
+  .tecnologia-conteudo {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .tecnologia-imagem {
+    display: none;
+  }
+  .escolha {
+    color: var(--cor-0);
+  }
+  .tecnologia a {
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 600px) {
+  .tecnologia-vantagens {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1200px) {
+  .tecno {
+    margin-bottom: 36px;
+  }
 }
