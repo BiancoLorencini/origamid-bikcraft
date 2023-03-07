@@ -19,3 +19,6 @@
 
 /* Seguros */
 @import url(seguros/seguros.css);
+
+/* Termos e Condiçoes */
+@import url(termos/termos.css);
