@@ -1,0 +1,8 @@
+.lojas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.lojas h2 {
+    grid-row: ;
+}
