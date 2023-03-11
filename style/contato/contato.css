@@ -69,7 +69,7 @@
   margin-bottom: 30px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .contato {
     grid-template-columns: 1fr;
   }
