@@ -1,8 +1,69 @@
 .lojas {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px 40px;
+  padding: 120px 20px;
 }
 
 .lojas h2 {
-    grid-row: ;
+  grid-column: 1/-1;
+  margin-bottom: 60px;
+}
+
+.lojas iframe {
+  border-radius: 5px 5px 0px 0px;
+  width: 100%;
+}
+
+.lojas-item {
+  background-color: var(--cor-0);
+  border-radius: 5px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.lojas-conteudo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px 16px;
+    padding: 32px;
+}
+
+.lojas-conteudo h3 {
+    grid-column: 1/-1;
+    text-align: center;
+}
+
+.lojas-tempo {
+    grid-column: 1/-1;
+}
+
+.lojas-dados {
+    display: grid;
+    height: 100px;
+    gap:8px;
+    border-left:  2px solid var(--cor-2);
+    padding-left: 12px;
+}
+
+.lojas-tempo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+@media (max-width:850px) {
+    .lojas {
+        gap: 20px;
+        padding: 60px 10px;
+        text-align: center;
+    }
+    .lojas-conteudo {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width:650px) {
+    .lojas {
+        grid-template-columns: 1fr;
+    }
 }
