@@ -40,8 +40,27 @@ function ativarPergunta(event) {
 }
 
 function eventosPerguntas(pergunta) {
-    pergunta.addEventListener("click", ativarPergunta)
+    pergunta.addEventListener("click", ativarPergunta);
 };
 
-perguntas.forEach(eventosPerguntas)
+perguntas.forEach(eventosPerguntas);
 
+// Galeria de fotos interativas
+const galeria = document.querySelectorAll(".bicicleta-imagens img");
+const galeriaContainer = document.querySelector(".bicicleta-imagens");
+
+
+function trocarImagem(event) {
+    const img = event.currentTarget;
+    const media = matchMedia("(min-width:457px)").matches;
+    if(media) {
+        galeriaContainer.prepend(img);
+    };
+
+};
+
+function eventosGaleria(img) {
+    img.addEventListener("click", trocarImagem);
+};
+
+galeria.forEach(eventosGaleria);
