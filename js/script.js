@@ -22,4 +22,10 @@ function ativarProduto(parametro) {
     console.log (elemento);
 };
 
-parametros.forEach(ativarProduto)
+parametros.forEach(ativarProduto);
+
+// ativação de perguntas frequentes.
+
+const perguntas = document.querySelectorAll(".perguntas button");
+
+console.log(perguntas)
