@@ -4,6 +4,7 @@
 @import url(global/footer.css);
 @import url(utilidades/tipografia.css);
 @import url(utilidades/cores.css);
+@import url(utilidades/animacao.css);
 
 /* Utilidades */
 @import url(utilidades/componentes.css);
